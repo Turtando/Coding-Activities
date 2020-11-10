@@ -1,4 +1,4 @@
-// Write a function that takes in a string and and returns the string with white space removed and all letters changed to lowercase . This is a common task when a variable, routeName, etc needs to be created from user input.
+// Write a function that takes in a string and and returns the string with white space removed and all letters changed to lowercase or Uppercase. This is a common task when a variable, routeName, etc needs to be created from user input.
 
 // Ex:
 // Input: Tammer Galal
@@ -11,7 +11,7 @@
 // Output: oneword
 
 
-const whiteSpaceRemoved = (str) => str.toLowerCase().replace(/\s+/g, '');
+const whiteSpaceRemoved = (str) => str.toUpperCase().replace(/\s+/g, '');
 
 const whiteSpaceRemoved2 = (str) => {
     let newStr = ""
