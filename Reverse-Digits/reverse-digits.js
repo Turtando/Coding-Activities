@@ -18,4 +18,3 @@ console.log(reverseDigits(4321));
 console.log(reverseDigits(1201));
 console.log(reverseDigits(4));
 console.log(reverseDigits(2344324));
-
